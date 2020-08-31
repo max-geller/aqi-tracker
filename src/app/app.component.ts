@@ -38,6 +38,22 @@ export class AppComponent {
     this.renderer2.appendChild(this._document.body, s3);
 
 
+    const s4 = this.renderer2.createElement('script');
+    s4.type = 'text/javascript';
+    s4.src = ' https://www.purpleair.com/pa.widget.js?key=1052P9ALN0O8N30E&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_20707_module_AQI_conversion_C0_average_10_layer_standard'
+    s4.text = ``;
+    this.renderer2.appendChild(this._document.body, s4);
+
+
+    const s5 = this.renderer2.createElement('script');
+    s5.type = 'text/javascript';
+    s5.src = 'https://www.purpleair.com/pa.widget.js?key=PMWGYB07N4CDBH23&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_37021_module_AQI_conversion_C0_average_10_layer_standard';
+    s5.text = ``;
+    this.renderer2.appendChild(this._document.body, s5);
+
+
+
+
   }
 
 
