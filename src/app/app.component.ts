@@ -21,13 +21,24 @@ export class AppComponent {
   ngOnInit() {
     const s1 = this.renderer2.createElement('script');
     s1.type = 'text/javascript';
-    s1.src = 'https://www.purpleair.com/pa.widget.js?key=G0XSWU6X6D15O7VA&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_19705_module_AQI_conversion_C0_average_10_layer_standard';
+    s1.src = 'https://www.purpleair.com/pa.widget.js?key=1NHE6FNSY542VU4O&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_20119_module_AQI_conversion_C0_average_10_layer_standard';
     s1.text = ``;
     this.renderer2.appendChild(this._document.body, s1);
+
     const s2 = this.renderer2.createElement('script');
     s2.type = 'text/javascript';
     s2.src = 'https://www.purpleair.com/pa.widget.js?key=G0XSWU6X6D15O7VA&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_19705_module_AQI_conversion_C0_average_10_layer_standard';
     s2.text = ``;
     this.renderer2.appendChild(this._document.body, s2);
+
+    const s3 = this.renderer2.createElement('script');
+    s3.type = 'text/javascript';
+    s3.src = ' https://www.purpleair.com/pa.widget.js?key=B6VIWXQJY1BUEJLJ&module=AQI&conversion=C0&average=10&layer=standard&container=PurpleAirWidget_3934_module_AQI_conversion_C0_average_10_layer_standard';
+    s3.text = ``;
+    this.renderer2.appendChild(this._document.body, s3);
+
+
   }
+
+
 }
