@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Nunito';
+}
+
+p,
+a,
+li {
+  font-family: 'Lato';
+}
+
+mat-card-title {
+  font-family: 'Lato';
+}
+
+mat-list-item-content {
+  font-family: 'Lato'
+}
+
+h1 {
+  font-size: 30;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 26;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 22;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 20;
+  font-weight: 800;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
